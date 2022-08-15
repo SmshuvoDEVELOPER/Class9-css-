@@ -1,0 +1,187 @@
+img {
+  max-width: 100%;
+  margin: 0;
+  border: 0;
+}
+
+#wrapper {
+  width: 1080px;
+  margin: 100px auto;
+  
+}
+
+/*
+#sitenav {
+  background-color: blueviolet;
+}
+
+#sitenav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+#sitenav ul li {
+  display: inline;
+ padding: 0;
+ margin-left: -4px;
+  
+}
+
+#sitenav ul li a {
+  color: rgb(255, 198, 128);
+  padding: 5px 10px;
+  font-size: 18px;
+  display: inline-block;
+  text-decoration: none;
+  background-color:rgb(163, 92, 0);
+  border: 1px solid rgb(155, 28, 28);
+
+}
+
+#sitenav ul li:last-child a {
+  border-right: 0;
+}
+
+#sitenav ul li a:hover {
+  background-color: rgb(27, 20, 8);
+}
+
+/* 1st menubar */
+
+.clearfix {
+  clear: both;
+}
+
+#sitenav2 {
+  background-color: rgb(235, 192, 192);
+}
+
+.primarynav2 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.primarynav2 ul li{
+  float:left;
+  position:relative;
+}
+
+.primarynav2 ul li a {
+  color: rgb(255, 198, 128);
+  padding: 5px 10px;
+  font-size: 18px;
+  display: inline-block;
+  text-decoration: none;
+  background-color:rgb(163, 92, 0);
+  border: 1px solid rgb(155, 28, 28);
+
+}
+.primarynav2 ul li:last-child a {
+  border-right: 0;
+}
+
+.primarynav2 ul li a:hover {
+  background-color: rgb(27, 20, 8);
+  color: aliceblue;
+
+}
+
+ul.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+
+ul.submenu li a {
+  background-color: rgb(56, 43, 6);
+  color: blanchedalmond;
+  width: 100px;
+  padding: 5px;
+  display: inline-block;
+  border-top: 1px solid skyblue;
+}
+
+ul.submenu li a:hover {
+  background-color: rgb(134, 120, 120);
+  /*border: 1px solid salmon; */
+    border-top: 2px solid salmon;
+}
+
+.dropdownmenu:hover ul.submenu {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*
+CSS Attribute Selector
+
+a[target]
+a[target="_self"]
+a[target~="About"]
+a[class|="first full word"]
+a[class^="first any value"]
+a[class$="last any value"]
+a[class*="inside any value"]
+
+*/
+
+.cssimagesprites {
+  margin-top: 50px;
+}
+
+.firstsprite {
+  height: 44px;
+  width: 46px;
+  background: url(image/img-sprites.gif) 0 0;
+  margin-top: 20px;
+}
+
+.secsprite {
+  height: 44px;
+  width: 43px;
+  background: url(image/img-sprites.gif) -47px 0;
+  margin-top: 20px;
+}
+.thirdsprite {
+  height: 44px;
+  width: 43px;
+  background: url(image/img-sprites.gif) -91px 0;
+  margin-top: 20px;
+}
+
+#cssformst input, #cssformst select, #cssformst button {
+ margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  
+  
+}
+
+#cssformst select {
+  width: 100px;}
+
+#cssformst input {
+padding: 8px 6px;
+border: 1px solid salmon;
+border-radius: 5px;
+}
+
+#cssformst button {
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: blue;
+  color: blanchedalmond;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+#cssformst button[type="submit"]:hover {
+  cursor: pointer;
+  background-color: blueviolet;
+  border: 2px solid sandybrown;
+}
